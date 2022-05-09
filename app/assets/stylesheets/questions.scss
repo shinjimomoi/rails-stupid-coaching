@@ -1,0 +1,29 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+ $gray: #F4F4F4;
+
+ body {
+   background: $gray; // Using this variable
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+
+.question, .answer {
+  padding: 8px;
+  border-left: 8px solid lightgray;
+  margin-bottom: 24px;
+}
+
+.answer {
+  background: #FEFFE1;
+
+  p:first-child {
+    font-weight: bold;
+  }
+}
+
+.back {
+  color: dodgerblue;
+  text-decoration: none;
+}
